@@ -133,11 +133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj",
+      "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj",
       "projectName": "PluginFramework.Common",
-      "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj",
+      "projectPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj",
       "packagesPath": "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\obj\\",
+      "outputPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

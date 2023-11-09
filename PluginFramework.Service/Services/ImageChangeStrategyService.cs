@@ -16,7 +16,10 @@ namespace PluginFramework.Service.Services
         _strategy = strategy;
         
         }
-
+        public void SetStrategy(IImageChangeStrategy strategy)
+        {
+            this._strategy = strategy;
+        }
         public Bitmap EditImage(Bitmap image, object effect)
         {
             var result = this._strategy.SetEffect(image, effect);

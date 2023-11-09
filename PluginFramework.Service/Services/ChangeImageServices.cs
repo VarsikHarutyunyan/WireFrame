@@ -1,4 +1,5 @@
 ﻿using PluginFramework.Common;
+using PluginFramework.Service.Effects;
 using PluginFramework.Service.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -45,9 +46,11 @@ namespace PluginFramework.Service.Services
                 switch (effect)
                 {
                     case 1:
+                        changeStrategyService.SetStrategy(new Effect1());
                         image = changeStrategyService.EditImage(image, new EffectImage1());
                         break;
                     case 2:
+                        changeStrategyService.SetStrategy(new Effect2());
                         image = changeStrategyService.EditImage(image, new EffectImage2());
                         break;
                     //it can be more

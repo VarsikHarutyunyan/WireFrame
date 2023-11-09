@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj": {}
+    "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Service\\PluginFramework.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj": {
+    "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj",
+        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj",
         "projectName": "PluginFramework.Common",
-        "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj",
+        "projectPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj",
         "packagesPath": "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\obj\\",
+        "outputPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj": {
+    "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Service\\PluginFramework.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj",
+        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Service\\PluginFramework.Service.csproj",
         "projectName": "PluginFramework.Service",
-        "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj",
+        "projectPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Service\\PluginFramework.Service.csproj",
         "packagesPath": "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\obj\\",
+        "outputPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,8 +95,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj": {
-                "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj"
+              "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj": {
+                "projectPath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework.Common\\PluginFramework.Common.csproj"
               }
             }
           }

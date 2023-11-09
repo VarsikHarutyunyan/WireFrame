@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cjzk6a8K9x2H8AyOvaq+thGFnmnWuka+yWwI38joChuGEslJdz6xjo/bMNJEdad1oBFQwkrSgNAsE1XKJMT8nQ==",
+  "dgSpecHash": "1DQ0+PPvjYrq1VxZAeQCzboTkrxQvFo9MxoGWIO1bSfvS0dkphGgccwO4slAEUbLDuKeWWn4hqPAOumN+PnKzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework\\PluginFramework.csproj",
+  "projectFilePath": "C:\\Users\\varsik.harutyunyan\\Desktop\\WireFrame\\PluginFramework\\PluginFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
