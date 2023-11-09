@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework\\PluginFramework.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj",
+        "projectName": "PluginFramework.Common",
+        "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj",
+        "packagesPath": "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\varsik.harutyunyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj",
+        "projectName": "PluginFramework.Service",
+        "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj",
+        "packagesPath": "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\varsik.harutyunyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj": {
+                "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Common\\PluginFramework.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework\\PluginFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework\\PluginFramework.csproj",
+        "projectName": "PluginFramework",
+        "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework\\PluginFramework.csproj",
+        "packagesPath": "C:\\Users\\varsik.harutyunyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\varsik.harutyunyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj": {
+                "projectPath": "C:\\Users\\varsik.harutyunyan\\source\\repos\\PluginFramework\\PluginFramework.Service\\PluginFramework.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
