@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PluginFramework.Common
 {
-    public class EffectImage2
+    public class EffectImage2 : IEffectImage
     {
         public Bitmap Image { get; set; }
         public int Color { get; set; }

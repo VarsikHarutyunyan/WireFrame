@@ -11,9 +11,14 @@ namespace PluginFramework.Service.Effects
 {
     public class Effect2: IImageChangeStrategy
     {
-        public Bitmap SetEffect(Bitmap image, object effectImage)
+        private IEffectImage imageEffect;
+        public Effect2(IEffectImage effectImage)
         {
-            var data = effectImage as EffectImage2;
+            imageEffect = effectImage;
+        }
+        public Bitmap SetEffect(Bitmap image)
+        {
+            var data = imageEffect as EffectImage2;
             //change image 
             return image;
         }

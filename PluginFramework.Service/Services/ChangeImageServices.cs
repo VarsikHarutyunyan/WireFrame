@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
@@ -39,24 +40,29 @@ namespace PluginFramework.Service.Services
         private Bitmap SetOnlyEffect(List<int> effects, Bitmap image)
         {
             ImageChangeStrategyService changeStrategyService = new();
-
             foreach (var effect in effects)
             {
-
+                IImageChangeStrategy effectStrategy;
+                Func<Bitmap, Bitmap> strategyMethod;
                 switch (effect)
                 {
                     case 1:
-                        changeStrategyService.SetStrategy(new Effect1());
-                        image = changeStrategyService.EditImage(image, new EffectImage1());
+                        strategyMethod = new Effect1(new EffectImage1()).SetEffect;
+                        //effectStrategy = new Effect1(new EffectImage1());
                         break;
                     case 2:
-                        changeStrategyService.SetStrategy(new Effect2());
-                        image = changeStrategyService.EditImage(image, new EffectImage2());
+                        strategyMethod = new Effect2(new EffectImage2()).SetEffect;
+                        //effectStrategy = new Effect2(new EffectImage2());
                         break;
                     //it can be more
                     default:
+                        strategyMethod = new EffectDefault(new EffectImage2()).SetEffect;
+                        //effectStrategy = new EffectDefault(new EffectImage1());
                         break;
                 }
+                //changeStrategyService.SetStrategy(effectStrategy);
+                //image = changeStrategyService.EditImage(image);
+                image = changeStrategyService.EditImage(strategyMethod, image);
             }
             return image;
         }

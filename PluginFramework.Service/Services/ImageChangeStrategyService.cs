@@ -12,19 +12,19 @@ namespace PluginFramework.Service.Services
     {
         private IImageChangeStrategy _strategy;
         public ImageChangeStrategyService() { }
-        public ImageChangeStrategyService(IImageChangeStrategy strategy) { 
-        _strategy = strategy;
-        
+        public ImageChangeStrategyService(IImageChangeStrategy strategy)
+        { 
+            _strategy = strategy;
         }
         public void SetStrategy(IImageChangeStrategy strategy)
         {
             this._strategy = strategy;
         }
-        public Bitmap EditImage(Bitmap image, object effect)
+        public Bitmap EditImage(Func<Bitmap, Bitmap> fn, Bitmap image)
         {
-            var result = this._strategy.SetEffect(image, effect);
+            var result = fn(image);
+            //change image
             return result;
-
         }
-     }
+    }
 }

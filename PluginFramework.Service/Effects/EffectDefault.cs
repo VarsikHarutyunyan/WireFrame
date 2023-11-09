@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace PluginFramework.Service.Effects
 {
-    public class Effect1 : IImageChangeStrategy
+    public class EffectDefault : IImageChangeStrategy
     {
         private IEffectImage imageEffect;
-        public Effect1(IEffectImage effectImage)
+        public EffectDefault(IEffectImage effectImage)
         {
             imageEffect = effectImage;
         }

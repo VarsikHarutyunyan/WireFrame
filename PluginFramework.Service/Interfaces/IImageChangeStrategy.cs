@@ -10,6 +10,6 @@ namespace PluginFramework.Service.Interfaces
 {
     public interface IImageChangeStrategy
     {
-        Bitmap SetEffect(Bitmap image, object effectImage);
+        Bitmap SetEffect(Bitmap image);
     }
 }
